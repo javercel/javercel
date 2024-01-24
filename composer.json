@@ -1,4 +1,14 @@
 {
-  "name": "shahzadamodassir/javercel",
-  "license": "MIT"
+    "name": "shahzadamodassir/javercel",
+    "description": "Javercel is a fast feature-rich web application framework with expressive.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Shahzada Modassir",
+            "email": "codingmodassir@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
 }
