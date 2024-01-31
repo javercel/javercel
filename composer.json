@@ -1,17 +1,29 @@
 {
     "name": "shahzadamodassir/javercel",
-    "description": "Javercel is a fast feature-rich web application framework with expressive.",
     "type": "library",
+    "description": "empty",
+    "keywords": ["javercel", "framework"],
+    "homepage": "http://github.com/javercel/javercel",
     "license": "MIT",
     "authors": [
         {
             "name": "Shahzada Modassir",
-            "email": "codingmodassir@gmail.com"
+            "email": "codingmodassir@gmail.com",
+            "role": "Developer"
         }
     ],
-    "minimum-stability": "dev",
     "require": {},
     "require-dev": {
-        "phpunit/phpunit": "^9.5"
-    }
+        "phpunit/phpunit": "^5.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "shahzadamodassir\\src\\": "src/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
